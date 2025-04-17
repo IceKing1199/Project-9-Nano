@@ -495,11 +495,11 @@ display:flex;
   left:30.8em;
 }
 .Arrow_Left:hover{
-  filter: grayscale(100%);
+  filter: brightscale(0.5);
 }
 
 .Arrow_Right:hover{
-  filter: grayscale(100%);
+  filter: brightscale(0.5);
 }
 .Arrow_Right{
   transition: filter 1s ease;
