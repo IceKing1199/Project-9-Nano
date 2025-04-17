@@ -487,22 +487,22 @@ display:flex;
   margin-left:2em;
 }
 .Arrow_Left{
-  transition: filter 0.3s ease;
+  transition: filter 1s ease;
   width:1.5em;
   height:1.5em;
   position:absolute;
   top:32em;
   left:30.8em;
 }
-.Arrow_Left::hover{
+.Arrow_Left:hover{
   filter: grayscale(100%);
 }
 
-.Arrow_Right::hover{
+.Arrow_Right:hover{
   filter: grayscale(100%);
 }
 .Arrow_Right{
-  transition: filter 0.3s ease;
+  transition: filter 1s ease;
   width:1.5em;
   height:1.5em;
   position:absolute;
